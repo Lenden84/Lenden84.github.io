@@ -1,0 +1,30 @@
+ body {
+
+	background-image: url('../image/bg.jpg');
+	background-repeat:no-repeat; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	color: #ffffff;
+
+    margin: 0;
+    padding: 0;
+}
+
+.currentLink {
+ 	font-color: #FFFFFF;;
+   background-color: #000000;
+}
+
+#slogan { 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 40px;
+	font-style: italic;
+	font-weight:bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: none;
+}
