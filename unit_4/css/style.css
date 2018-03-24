@@ -1,3 +1,12 @@
+ @font-face {
+  font-family: 'me123';
+  src: url('../font/Korataki.ttf')  format('truetype'); /* Safari, Android, iOS */
+  src: url('../font/Event Horizon.ttf')  format('truetype');
+  src: url('../font/Helvetica.ttf')  format('truetype');
+  src: url('../font/Times New Roman.ttf')  format('truetype');
+  src: url('../font/sans-serif.ttf')  format('truetype'),
+}
+
  body {
 	background-image: url('../image/bg.jpg');
 	background-repeat:no-repeat; 
@@ -10,6 +19,7 @@
 	color: #ffffff;
     margin: 0;
     padding: 0;
+    font-family: 'Korataki, Event Horizon, Times New Roman, Helvetica, sans-serif;
 }
 .currentLink {
  	font-color: #FFFFFF;;
@@ -49,8 +59,8 @@ h4{
 	text-decoration: none;
 	text-transform: none;
 }
-#detail{
-	font-family: Time New Roman, Helvetica, sans-serif;
+.detail{
+	font-family: Times New Roman, Helvetica, sans-serif;
 	font-size: 35px;
 	font-style: normal;
 	font-weight:normal;
@@ -58,7 +68,7 @@ h4{
 	text-decoration: none;
 	text-transform: none;
 }
-#import{
+.import{
 	font-family: Korataki, Event Horizon, Helvetica, sans-serif;
 	font-size: 35px;
 	font-style: normal;
