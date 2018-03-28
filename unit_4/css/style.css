@@ -6,7 +6,6 @@
   src: url('../font/Times New Roman.ttf')  format('truetype');
   src: url('../font/sans-serif.ttf')  format('truetype'),
 }
-
  body {
 	background-image: url('../image/bg.jpg');
 	background-repeat:no-repeat; 
