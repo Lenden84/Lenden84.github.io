@@ -1,0 +1,126 @@
+@font-face {
+  font-family: 'Korataki, Event Horizon, Times New Roman, Helvetica, sans-serif';
+  src: url('../font/Korataki.ttf')  format('truetype'); /* Safari, Android, iOS */
+  src: url('../font/Event Horizon.ttf')  format('truetype'); /* Safari, Android, iOS */
+  src: url('../font/Helvetica.ttf')  format('truetype'); /* Safari, Android, iOS */
+  src: url('../font/Times New Roman.ttf')  format('truetype'); /* Safari, Android, iOS */
+  src: url('../font/sans-serif.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+body {
+	background-image: url('../image/bg.jpg');
+	background-repeat:no-repeat; 
+	background-size: cover;
+	color: #ffffff;
+ }
+ /*Header - Nav*/
+#logo{
+	font-family: Korataki, Event Horizon, Helvetica, sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: normal;
+	text-align: left;
+	text-decoration: none;
+	text-transform: none;
+}
+h4{	
+	font-family: Event Horizon, Helvetica, sans-serif;
+	font-size: 25px;
+	font-style: italic;
+	font-weight:bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: none;
+}
+.currentLink {
+ 	font-color: #FFFFFF;;
+   background-color: #000000;
+}
+a:link {
+   color: #FFFFFF;
+}
+a:hover {
+  color: #FFB500;
+}
+/*Header - Section*/
+#slogan { 
+	font-family: Korataki, Event Horizon, Helvetica, sans-serif;
+	font-size: 55px;
+	font-style: normal;
+	font-weight:bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: none;
+}
+#info {
+	font-family: Korataki, Event Horizon, Helvetica, sans-serif;
+	font-size: 40px;
+	font-style: normal;
+	font-weight:normal;
+	text-align: center;
+	text-decoration: none;
+	text-transform: none;
+	padding: 0 25px 0 25px;
+	margin: auto;
+}
+/*Main - Article*/
+.detail{
+	font-family: Time New Roman, Helvetica, sans-serif;
+	font-size: 25px;
+	font-style: normal;
+	font-weight:normal;
+	text-align: center;
+	text-decoration: none;
+	text-transform: none;
+	padding:  0 25px 0 25px ;
+	margin: auto;
+}
+.import{
+	font-family: Event Horizon, Helvetica, sans-serif;
+	font-size: 35px;
+	font-style: normal;
+	font-weight: normal;
+	text-align: center;
+	text-decoration: none;
+	text-transform: none;
+	padding: 0 25px 0 25px;
+	margin: auto;
+}
+/*All Images*/
+img { 
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%; 
+    height: auto; 
+    padding: 5px;
+}
+/*media only screen*/
+@media only screen and(max-width:736) {
+ /*Header - Nav*/
+	#logo{
+		font-size: 1em;
+	}
+	h4{	
+		font-size: 1.2em;
+	}
+/*Header - Section*/
+	#slogan { 
+		font-size: 3em;
+	}
+	#info {
+		font-size: 1.8em;
+		padding: 0 25px 0 25px;
+		margin: auto;
+	}
+/*Main - Article*/
+	.detail{
+		Font-size: 2em;
+		padding:  0 25px 0 25px ;
+		margin: auto;
+	}
+	.import{
+		font-size: 3em;
+		padding: 0 25px 0 25px;
+		margin: auto;
+	}
+}
