@@ -1,0 +1,86 @@
+@font-face {
+  font-family: 'StencilStd, times, timesbd, Korataki, d_Wedding, sans-serif';
+  src: url('../font/StencilStd.otf')  format('truetype'); /* Safari, Android, iOS */
+  src: url('../font/times.ttf')  format('truetype'); /* Safari, Android, iOS */
+  src: url('../font/timesbd.ttf')  format('truetype'); /* Safari, Android, iOS */
+  src: url('../font/Korataki.ttf')  format('truetype'); /* Safari, Android, iOS */
+  src: url('../font/d_Wedding.ttf')  format('truetype'), /* Safari, Android, iOS */
+}
+body{
+	background-color: black;
+	color: #ffffff;
+}
+/*Header - Nav*/
+#logo{
+	font-family: StencilStd,Timesbd, sans-serif;
+	font-size: 1.5em;
+	font-style: normal;
+	font-weight: normal;
+	text-align: left;
+	text-decoration: none;
+	text-transform: none;
+}
+h1,h4{	
+	font-family: Kirataki, time, sans-serif;
+	font-size: 1.2em;
+	font-style: italic;
+	font-color: #ffffff;
+	font-weight:bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: none;
+}
+.currentLink {
+ 	font-color: black;
+   background-color: #000000;
+}
+a:link {
+   color: #af111C;
+}
+a:hover {
+  color: blue;
+}
+/*Main - Section*/
+#about{
+	font-color: #ffffff;
+	font-family: StencilStd, time, sans-serif;
+	font-size: 1.7em;
+	font-style: italic;
+	font-weight:bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: none;
+	padding: 0 25px 0 25px;
+	margin: auto;
+}
+#info {
+	font-family: Korataki, Event Horizon, Helvetica, sans-serif;
+	font-size: 40px;
+	font-style: normal;
+	font-weight:normal;
+	text-align: center;
+	text-decoration: none;
+	text-transform: none;
+	padding: 0 25px 0 25px;
+	margin: auto;
+}
+video{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%; 
+    height: auto; 
+    border: 1px black solid;
+    padding: 20px;
+    width: 30%
+}
+img { 
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%; 
+    height: auto; 
+    border: 1px black solid;
+    padding: 20px;
+    width: 30%
+}
